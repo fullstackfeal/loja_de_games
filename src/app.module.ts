@@ -3,8 +3,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { Produto } from './produto/entities/produto.entity';
 import { ProdutoModule } from './produto/entities/produto.module';
 import { Categoria } from './categoria/entities/categoria.entity';
-import { CategoriaModule } from './categoria/entities/categoria.module';
-
+import { CategoriaModule } from './categoria/categoria.module';
 @Module({
   imports: [
     TypeOrmModule.forRoot({
